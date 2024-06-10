@@ -1,0 +1,109 @@
+# Maven target directory
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper properties
+!.mvn/wrapper/maven-wrapper.jar
+
+# Help documentation
+HELP.md
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# NetBeans files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code files
+.vscode/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Node.js
+node_modules/
+
+# Ignore specific IDE configurations
+/.idea/
+/*.iml
+
+# Ignore Maven Wrapper files
+/.mvn/wrapper/maven-wrapper.jar
+
+# Ignore target folders except those under src/main and src/test
+/target/
+!src/main/**/target/
+/src/main/**/target/
+/src/test/**/target/
+
+# Ignore STS (Spring Tool Suite) specific files
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Ignore IntelliJ specific files
+.idea
+*.iws
+*.iml
+*.ipr
+
+# Ignore NetBeans specific files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Ignore VS Code specific files
+.vscode/
+
+# Miscellaneous
+*.log
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Node.js
+node_modules/
